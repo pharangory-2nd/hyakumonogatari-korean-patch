@@ -2,7 +2,7 @@
 
 이 프로젝트는 구성요소별로 서로 다른 라이선스를 적용합니다. 하나의 라이선스가 저장소나 배포 ZIP 전체에 일괄 적용되는 것은 아닙니다. 아래 허락은 제작자가 보유하고 허락할 수 있는 권리 범위에 한합니다.
 
-제작자 표기: **pharangory-2nd** (2026)
+제작자 표기: **까치의 꿈** (GitHub: **pharangory-2nd**, 2026). 두 이름은 동일한 제작자를 가리킵니다.
 프로젝트: [백물어 텍스트 한글패치](https://github.com/pharangory-2nd/hyakumonogatari-korean-patch)
 
 ## 한국어 번역 및 프로젝트 문서 — CC BY-NC-SA 4.0
@@ -11,7 +11,7 @@
 
 비상업적 목적으로 공유하거나 수정하여 배포할 수 있습니다. 제작자와 출처, 라이선스를 표시하고 변경 여부를 밝혀야 하며, 수정물을 공유할 때에는 해당 라이선스의 동일조건변경허락 조건을 따라야 합니다. 정확한 조건은 [라이선스 전문](licenses/CC-BY-NC-SA-4.0.txt)과 [공식 한국어 요약](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko)을 따릅니다.
 
-출처 표기 예: 백물어 한국어 번역 — pharangory-2nd / https://github.com/pharangory-2nd/hyakumonogatari-korean-patch / CC BY-NC-SA 4.0. 수정본인 경우 수정자와 변경 내용을 추가하십시오.
+출처 표기 예: 백물어 한국어 번역 — 까치의 꿈 (pharangory-2nd) / https://github.com/pharangory-2nd/hyakumonogatari-korean-patch / CC BY-NC-SA 4.0. 수정본인 경우 수정자와 변경 내용을 추가하십시오.
 
 ## 새로 작성한 패치 코드 — MIT
 
