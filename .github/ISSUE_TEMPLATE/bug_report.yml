@@ -1,0 +1,83 @@
+name: 오류 제보
+description: 패치 적용, 화면 표시, 진행, 음성 또는 번역 문제를 알려 주세요.
+title: "[오류] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        알려주셔서 감사합니다. 모르는 항목은 ‘미확인’으로 작성하셔도 됩니다.
+        원본 이미지와 BIOS는 첨부하지 마십시오. 음성 자막과 일부 메뉴·그래픽은 v0.1의 미적용 범위입니다.
+  - type: input
+    id: patch_version
+    attributes:
+      label: 패치 버전
+      placeholder: v0.1
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 문제 종류
+      options:
+        - 패치 적용
+        - 글자 깨짐 또는 잘림
+        - 페이지 나눔 또는 문단 아이콘
+        - 진행 또는 로딩
+        - 음성 또는 배경음
+        - 오탈자 또는 번역
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 실행 환경
+      description: 기기·에뮬레이터와 버전, 코어·펌웨어 버전, 관련 설정을 아는 범위에서 적어 주세요. 패치 적용 문제라면 Windows 버전도 적어 주세요.
+      placeholder: "SuperStation One / 코어·펌웨어 버전 미확인"
+    validations:
+      required: true
+  - type: dropdown
+    id: startup
+    attributes:
+      label: 시작 방법
+      options:
+        - CUE에서 정상 부팅
+        - 정상 부팅 후 게임 내 저장 이용
+        - 에뮬레이터 즉시 저장 이용
+        - 패치 적용 단계에서 발생
+        - 미확인
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: 발생 위치
+      description: 에피소드·모드, 해당 문구와 선택지·분기를 적어 주세요. 화면 번호나 문구 ID를 알면 함께 적어 주세요. 적용 문제라면 해당 없음으로 적으시면 됩니다.
+    validations:
+      required: true
+  - type: textarea
+    id: actual_expected
+    attributes:
+      label: 실제 현상과 기대한 동작
+      description: 어떤 일이 일어났고, 정상이라면 어떻게 되어야 하는지 알려 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 재현 순서와 발생 빈도
+      description: 같은 순서로 다시 시도해도 발생하는지 적어 주세요. 재현하지 못했어도 제보할 수 있습니다.
+      placeholder: |
+        1. 해당 에피소드에 진입
+        2. ... 문구에서 버튼 입력
+        3. ... 현상 발생
+        발생 빈도:
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 사진·영상 또는 패치 오류 메시지
+      description: 가능하면 첨부해 주세요. 패치 적용 문제라면 SUCCESS 표시 여부나 오류 메시지를 적어 주세요. 개인 경로 등 공개하지 않을 정보는 가려 주세요.
+    validations:
+      required: false
