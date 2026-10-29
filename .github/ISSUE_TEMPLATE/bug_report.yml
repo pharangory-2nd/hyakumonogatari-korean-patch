@@ -6,12 +6,12 @@ body:
     attributes:
       value: |
         알려주셔서 감사합니다. 모르는 항목은 ‘미확인’으로 작성하셔도 됩니다.
-        원본 이미지와 BIOS는 첨부하지 마십시오. 「2층이 무서워」·「팔 내놔」·「인형은 밤마실을 간다」·「선택받은 집」 이외의 음성 자막과 일부 메뉴·그래픽은 v0.1.8의 미적용 범위입니다.
+        원본 이미지와 BIOS는 첨부하지 마십시오. 「2층이 무서워」·「팔 내놔」·「인형은 밤마실을 간다」·「선택받은 집」·「사촌의 충고」 이외의 음성 자막과 일부 메뉴·그래픽은 v0.1.9의 미적용 범위입니다.
   - type: input
     id: patch_version
     attributes:
       label: 패치 버전
-      placeholder: v0.1.8
+      placeholder: v0.1.9
     validations:
       required: true
   - type: dropdown
