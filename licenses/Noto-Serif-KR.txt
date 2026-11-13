@@ -1,0 +1,5 @@
+Font: Noto Serif KR (weight 600)
+License: SIL Open Font License 1.1
+Official license: https://github.com/notofonts/noto-cjk/blob/main/Serif/LICENSE
+Font family: https://github.com/notofonts/noto-cjk
+These assets are rasterized glyph images. No font binary is included.
